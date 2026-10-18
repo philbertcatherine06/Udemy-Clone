@@ -42,7 +42,7 @@ body{
     cursor: pointer;
 }
 
-/* Explore, Subscribe, Udemy Business, Teach on Udemy */
+
 .navbar__link {
     padding: 8px 12px;
     border-radius: 8px;
@@ -56,7 +56,7 @@ body{
     outline: none;
 }
 
-/* extra space before cart, like udemy.com */
+
 .navbar__cart {
     margin-left: 8px;
 }
@@ -163,11 +163,33 @@ body{
 }
 .course-card{
     width: 250px;
-
+    margin-bottom: 24px;
 }
 .course-card img{  
     width: 100%;
     border-radius: 10px;
+}
+
+.course-card h3 {
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.course-card p {
+    margin: 0;
+}
+
+.course-card h3 + p {
+    color: #6a6f73;
+    margin-bottom: 16px;
+}
+
+.course-card h3 + p + p {
+    margin-bottom: 8px;
+}
+
+.course-card del {
+    color: #6a6f73;
 }
 
 .topics{
@@ -231,7 +253,7 @@ body{
     margin-bottom: 12px;
 }
 
-/* same as udemy.com: left | center | right */
+
 .footer__two {
     display: flex;
     justify-content: space-between;
@@ -241,7 +263,7 @@ body{
     background-color: #202230;
 }
 
-/* left: logo + copyright */
+
 .footer__two__left {
     display: flex;
     align-items: center;
