@@ -24,8 +24,8 @@
 
         <div class="navbar__left">
             <img src="https://frontends.udemycdn.com/frontends-homepage/staticx/udemy/images/v7/logo-udemy.svg" alt="Udemy" width="91" height="34">
-            <a href="#">Explore</a>
-            <a href="#">Subscribe</a>
+            <a href="#" class="navbar__link">Explore</a>
+            <a href="#" class="navbar__link">Subscribe</a>
         </div>
 
         <div class="navbar__search">
@@ -34,9 +34,9 @@
         </div>
 
         <div class="navbar__right">
-            <a href="#">Udemy Business</a>
-            <a href="#">Teach on Udemy</a>
-            <a href="#"><span class="fa-solid fa-cart-shopping"></span></a>
+            <a href="#" class="navbar__link">Udemy Business</a>
+            <a href="#" class="navbar__link">Teach on Udemy</a>
+            <a href="#" class="navbar__cart"><span class="fa-solid fa-cart-shopping"></span></a>
             <a href="login.html">
                 <button class="navbar__login">Log in</button>
             </a>
@@ -225,16 +225,19 @@
         </div>
 
         <div class="footer__two">
+            <!-- Left side: logo and copyright in one row -->
             <div class="footer__two__left">
                 <img src="https://frontends.udemycdn.com/components-v2/react-footer/logo-udemy-inverted.svg" alt="Udemy" width="91" height="34">
-                <p>&copy; 2026 Udemy, Inc.</p>
+                <p class="footer__copy">&copy; 2026 Udemy, Inc.</p>
             </div>
 
-            <p>Cookie settings</p>
-
-            <div class="footer__two__lang">
-                <span class="fa-solid fa-globe"></span>
-                <p>English</p>
+            <!-- Right side: cookie settings and language -->
+            <div class="footer__two__right">
+                <p>Cookie settings</p>
+                <div class="footer__two__lang">
+                    <span class="fa-solid fa-globe"></span>
+                    <p>English</p>
+                </div>
             </div>
         </div>
     </div>
