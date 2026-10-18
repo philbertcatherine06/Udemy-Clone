@@ -24,11 +24,11 @@ body{
 }
 
 .navbar__left {
-    gap: 0;
+    gap: 4px;
 }
 
 .navbar__left img {
-    margin-right: 16px;
+    margin-right: 12px;
 }
 
 .navbar__right {
@@ -44,8 +44,8 @@ body{
 
 /* Explore, Subscribe, Udemy Business, Teach on Udemy */
 .navbar__link {
-    padding: 8px;
-    border-radius: 8px;
+    padding: 8px 12px;
+    border-radius: 16px;
     transition: color 0.2s ease, background-color 0.2s ease;
 }
 
