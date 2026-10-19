@@ -8,6 +8,14 @@ body {
     background-color: #ffffff;
 }
 
+.notice {
+    background-color: #1c1d1f;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 13px;
+}
+
 .login {
     display: flex;
     align-items: center;

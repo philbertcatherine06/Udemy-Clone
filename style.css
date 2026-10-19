@@ -7,6 +7,14 @@ body{
     font-family: Gabarito, sans-serif;
 }
 
+.notice {
+    background-color: #1c1d1f;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 13px;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -27,8 +35,9 @@ body{
     gap: 4px;
 }
 
-.navbar__left img {
+.navbar__left p {
     margin-right: 12px;
+    font-weight: bold;
 }
 
 .navbar__right {
@@ -270,10 +279,8 @@ body{
     gap: 12px;
 }
 
-.footer__two__left img {
-    display: block;
-    height: 28px;
-    width: auto;
+.footer__two__left p {
+    color: #ffffff;
 }
 
 /* same size as original udemy.com copyright */
